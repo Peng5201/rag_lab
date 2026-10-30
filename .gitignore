@@ -1,0 +1,13 @@
+# 依赖与产物
+node_modules/
+dist/
+*.log
+
+# 本地私有配置（密钥等）
+config.local.ps1
+.env
+.env.*
+
+# 兼容本地临时知识库（默认位置已改到 <文档>/RAG-Lab/knowledge）
+# 注意：必须带前导斜杠，否则会连带忽略 src/knowledge/ 源码目录
+/knowledge/
